@@ -1,0 +1,21 @@
+
+
+.hbut li {
+    display: inline; 
+    margin-right: 5px; 
+    border: 1px solid #000;
+    padding: 3px; 
+    color: #fec63d;
+	text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+}
+
+h1 {
+    margin-left: 650px;
+    margin-top:200px;
+    
+}
