@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Project</title>
+    <title>Sample page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,60 +12,76 @@
 <body>
     <header>
         <nav>
-            <ul class="hbut">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+          <div class="hbut">
+                <a href="#about">About</a>
+                <a href="#myWork">My Work</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
-
-        <h1> Portfolio</h1>
-
+         <h1> Portfolio</h1>
+         <div class="headerimg">
+          <img src="../css/img/logor.png" alt='logor'>
+          </div>
     </header>
-    <hr>
-    <section class="sect1">
-        <h2> Hi, I'm Roman, Web developer</h2>
-        <p>html/css/javascript</p>
+    <section class="sectionone">
+        <img src="../css/img/bigletter2.png" alt='letter'>
+        <div class="textsectionone">
+        <h2> Hi,<br> I'm Roman,<br> Web developer.</h2>
+        <p id="htmlcssjs">html/css/javascript</p>
+        </div>
     </section>
-    <hr>
-    <section class="sect2">
+    <hr id="bar" class="container">
+    <section id="about">
         <h3>About Me</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="lorem" class="container">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
-    <hr>
-    <section class="sect3">
-        <h4>My Work</h4>
-        <a href="https://google.com"><img src="css/img/road.jpg" width="130" height="105" alt="road"></a>
-        <a href="https://google.com"><img src="css/img/mount.jpg" width="130" height="105" alt="road"></a>
-        <a href="https://google.com"><img src="css/img/sea.jpg" width="150" height="105" alt="road"></a>
-        <br>
-        <a href="https://google.com"><img src="css/img/road.jpg" width="130" height="105" alt="road"></a>
-        <a href="https://google.com"><img src="css/img/mount.jpg" width="130" height="105" alt="road"></a>
-        <a href="https://google.com"><img src="css/img/sea.jpg" width="150" height="105" alt="road"></a>
-    </section>
-    <hr>
+    <hr class="container">
     <section>
-        <h5>Contact Me</h5>
-        <form>
-            <input type="text" Placeholder="Your Name">
-            <br>
-            <input type="email" Placeholder="Email">
-            <br>
-            <input type="text" Placeholder="Massage">
-            <br>
-            <input type="submit">
-        </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106861.83246053771!2d24.037155847007714!3d49.839120986357855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542338034230" width="600" height="450" style="border:0" allowfullscreen></iframe>
+        <h3 id="myWork">My Work</h3>
+        <div class="myWork">
+        <a href="https://google.com"><img src="css/img/road.jpg" width="200" height="130" alt="road"></a>
+        <a href="https://google.com"><img src="css/img/mount.jpg" width="200" height="130" alt="road"></a>
+        <a href="https://google.com"><img src="css/img/sea.jpg" width="220" height="150" alt="road"></a>
+        <a href="https://google.com"><img src="css/img/road.jpg" width="200" height="130" alt="road"></a>
+        <a href="https://google.com"><img src="css/img/mount.jpg" width="200" height="130" alt="road"></a>
+        <a href="https://google.com"><img src="css/img/sea.jpg" width="220" height="150" alt="road"></a>
+        </div>
     </section>
-    <hr>
+    <hr class="container">
+    <section  id="contact">
+        <h3>Contact Me</h3>
+        <div class="form">
+        <form>
+            <input id="name" type="text" Placeholder="Your Name">
+            <input id="email" type="email" Placeholder="Email">
+            <textarea id="massage" placeholder=" Massage"></textarea>
+            <input id="submit" type="submit" value="Send">
+        </form>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d100797.25727437525!2
+        d23.9919761619279!3d49.8359402760679!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542545486041" 
+        width="450" height="530"  style="border:0" allowfullscreen></iframe>
+    </section>
+    <hr class="container">
     <footer>
+        <div class="logo">
         <a href="https://google.com"><img src="css/img/twitter-icon.png" width="50" height="50" alt="icon"></a>
-        <a href="https://google.com"><img src="css/img/vk-icon.png" width="50" height="50" alt="icon"></a>
-        <a href="https://google.com"><img src="css/img/fblogo.jpg" width="50" height="50" alt="icon"></a>
+        <a id="central" href="https://google.com"><img src="css/img/vk-icon.png" width="50" height="50" alt="icon"></a>
+        <a href="https://google.com"><img src="css/img/fblogo.png" width="50" height="50" alt="icon"></a>
+        </div>
+        <br>
+        <div id="end">
+        <p>Roman Pylypyak</p>
+        <br>
         <p>Lviv 2018</p>
+        </div>
     </footer>
+    
 </body>
 
 </html>
