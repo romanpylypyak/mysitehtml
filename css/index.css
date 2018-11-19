@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
 
 body {
-    background-image: url("img/bodybackground.jpg");
+    background-image: url("../img/bodybackground.jpg");
     margin:auto;
 
 }
 
 header {
-    background-image: url("img/header.jpeg");
+    background-image: url("../img/header.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 390px;
