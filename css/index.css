@@ -3,7 +3,7 @@
 body {
     background-image: url("../img/bodybackground.jpg");
     margin:auto;
-
+max-width: 980px;
 }
 
 header {
@@ -57,13 +57,7 @@ h3 {
     font-family: 'Rubik Mono One';
 }
 
-#htmlcssjs {
-    color: #fec63d;
-    font-family: 'Rubik Mono One';
-    margin-top: -30px;
-    font-size: 28px;
-    margin-left: 170px;
-}
+
 #lorem {
     color:#fec63d;
     margin-left: 40px;
@@ -72,9 +66,17 @@ h3 {
 
 
 .textsectionone{
-margin-top: -340px;
+margin-top: -280px;
 margin-left: 100px;
 font-size: 48px;
+}
+
+#htmlcssjs {
+    color: #fec63d;
+    font-family: 'Rubik Mono One';
+    margin-top: -30px;
+    font-size: 20px;
+    margin-left: 120px;
 }
 
 #bar {
@@ -84,8 +86,10 @@ font-size: 48px;
 
 .sectionone img {
     display: flex;
-    margin-left: 960px;
-    margin-top: 80px;
+    margin-left: 600px;
+    margin-top: 40px;
+    width: 270px;
+    height: 270px;
 }
 
 h2 {
@@ -93,6 +97,7 @@ h2 {
     display:flex;
     justify-content:flex-start;
     font-family: 'Rubik Mono One';
+    font-size: 34px;
 }
 
 hr {
@@ -208,11 +213,6 @@ textarea::placeholder {
     margin: 0px;
  }
  
- 
- 
- 
- 
- 
  @media (max-width: 975px) {
      
  iframe {
@@ -236,6 +236,14 @@ textarea::placeholder {
  }    
 @media (max-width: 895px) {
      
+     
+    .sectionone img {
+    display: flex;
+    margin-left: 600px;
+    margin-top: 40px;
+    width: 180px;
+    height: 180px;
+}
     iframe {
     height: 290px;
     display: block;
@@ -257,7 +265,34 @@ textarea::placeholder {
 }
 
 @media (max-width: 815px) {
-     
+    
+    .textsectionone{
+margin-top: -280px;
+margin-left: 100px;
+font-size: 30px;
+}
+
+#htmlcssjs {
+    color: #fec63d;
+    font-family: 'Rubik Mono One';
+    margin-top: -30px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+    .sectionone img {
+    display: flex;
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 220px;
+    height: 220px;
+}
+     .textsectionone{
+margin-top: -280px;
+margin-left: 30px;
+font-size: 32px;
+}
+
     iframe {
     height: 290px;
     display: block;
@@ -309,9 +344,23 @@ h1 {
     margin-left: 5px;
 }
 }
-
+ 
 @media (max-width: 770px) {
      
+     .textsectionone{
+margin-top: -280px;
+margin-left: 50px;
+font-size: 28px;
+}
+
+#htmlcssjs {
+    color: #fec63d;
+    font-family: 'Rubik Mono One';
+    margin-top: -30px;
+    font-size: 18px;
+    margin-left: 120px;
+}
+
     iframe {
     height: 250px;
     display: block;
@@ -401,6 +450,40 @@ h2 {
 }
 }
 
+
+@media (max-width: 770px){
+    
+    
+    .sectionone img {
+    display: flex;
+    margin-left: 440px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+    h2 {
+    color:#fec63d;
+    display:flex;
+    justify-content:flex-start;
+    font-family: 'Rubik Mono One';
+    font-size: 28px;
+}
+
+ .textsectionone{
+margin-top: -240px;
+margin-left: 30px;
+font-size: 28px;
+}
+
+#htmlcssjs {
+    color: #fec63d;
+    font-family: 'Rubik Mono One';
+    margin-top: -30px;
+    font-size: 18px;
+    margin-left: 120px;
+}   
+}
+
 @media (max-width: 700px) {
      
     iframe {
@@ -410,7 +493,7 @@ h2 {
     width: 500px;
     border: 0;
     margin-top: 250px;
-    margin-right: 90px;
+    margin-right: 110px;
     margin-bottom: 30px;
  }  
  .myWork {
@@ -525,6 +608,15 @@ display: flex;
 }
 }
 @media (max-width: 675px) {
+.sectionone img {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+
 .form {
     height: 84px;
     width: 100px;
@@ -551,8 +643,18 @@ display: flex;
     margin-right: 80px;
     margin-bottom: 30px;
  }  
- 
+}
  @media (max-width: 620px) {
+.sectionone img {
+    visibility: hidden;
+    display: block;
+    margin-left: 440px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+
 .form {
     height: 84px;
     width: 100px;
@@ -565,10 +667,10 @@ display: flex;
    height: 180px;
     display: block;
     margin-left: 280px;
-    width: 320px;
+    width: 380px;
     border: 0;
     margin-top: 250px;
-    margin-right: 120px;
+    margin-right: 140px;
     margin-bottom: 30px;
  }  
  #name {
@@ -619,6 +721,17 @@ display: flex;
 }
 }
 @media (max-width: 580px) {
+
+.sectionone img {
+    visibility: hidden;
+    display: block;
+    margin-left: 440px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+
 .form {
     height: 84px;
     width: 100px;
@@ -631,10 +744,11 @@ display: flex;
    height: 180px;
     display: block;
     margin-left: 280px;
-    width: 320px;
+    width: 360px;
     border: 0;
     margin-top: 250px;
-    margin-right: 120px;
+    margin-right: 100px;
+    margin-left: 10px;
     margin-bottom: 30px;
  }  
  #name {
@@ -726,7 +840,19 @@ h1 {
     margin-left: 5px;
 }
 }
+
+
 @media (max-width: 490px) {
+
+.sectionone img {
+    visibility: hidden;
+    display: block;
+    margin-left: 440px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
 .form {
     height: 84px;
     width: 100px;
@@ -738,11 +864,11 @@ h1 {
  iframe {
    height: 180px;
     display: block;
-    margin-left: 280px;
-    width: 320px;
+    margin-left: 300px;
+    width: 100%;
     border: 0;
     margin-top: 250px;
-    margin-right: 120px;
+    margin-right: 10px;
     margin-bottom: 30px;
  }  
  #name {
