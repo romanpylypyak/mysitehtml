@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/index.css">
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body max-width="980px" min-width="490px">
@@ -56,11 +61,11 @@
     <section  id="contact">
         <h3>Contact Me</h3>
         <div class="form">
-        <form>
+        <form method="POST" class="form">
             <input id="name" type="text" Placeholder="Your Name">
             <input id="email" type="email" Placeholder="Email">
             <textarea id="massage" placeholder=" Massage"></textarea>
-            <input id="submit" type="submit" value="Send">
+            <input class="html-ajax" id="submit" type="submit" value="Send">
         </form>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d100797.25727437525!2
@@ -81,7 +86,7 @@
         <p>Lviv 2018</p>
         </div>
     </footer>
-    
+   
 </body>
 
 </html>
