@@ -701,7 +701,7 @@ margin-left: 30px;
     width: 75%;
     border: 0;
     margin-top: 250px;
-    margin-right: 83px;
+    margin-right: 50px;
     margin-bottom: 30px;
  }  
  #name {
@@ -908,7 +908,7 @@ form {
     color: black;
     border: 2px solid black;
     padding: 8px;
-    width: 380px;
+    width: 368px;
     font-size: 16px;
 }
 #email {
@@ -953,7 +953,7 @@ form {
 .form {
     height: 84px;
     width: 100px;
-    margin-left: -20px;
+    margin-left: 0px;
     margin-top: 40px;
     display: block;
 }
@@ -974,7 +974,7 @@ form {
     color: black;
     border: 2px solid black;
     padding: 8px;
-    width: 428px;
+    width: 400px;
     font-size: 16px;
 }
 #email {
@@ -983,7 +983,7 @@ form {
     font-family: 'Rubik Mono One';
     color: black;
     border: 2px solid black;
-    width: 424px;
+    width: 400px;
 }
 
 #massage {
@@ -991,7 +991,7 @@ form {
     font-family: 'Rubik Mono One';
     color: black;
     border: 2px solid black;
-    width: 440px;
+    width: 420px;
     height: 150px;
 }
 #submit  {
