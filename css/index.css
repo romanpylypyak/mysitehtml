@@ -884,10 +884,10 @@ h1 {
 }
 @media (max-width: 525px) {
     
-form {
+.form {
     height: 84px;
     width: 100px;
-    margin-left: -20px;
+    margin-left: 0px;
     margin-top: 40px;
     display: block;
 }
@@ -908,7 +908,7 @@ form {
     color: black;
     border: 2px solid black;
     padding: 8px;
-    width: 368px;
+    width: 408px;
     font-size: 16px;
 }
 #email {
@@ -917,7 +917,7 @@ form {
     font-family: 'Rubik Mono One';
     color: black;
     border: 2px solid black;
-    width: 363px;
+    width: 404px;
 }
 
 #massage {
@@ -925,7 +925,7 @@ form {
     font-family: 'Rubik Mono One';
     color: black;
     border: 2px solid black;
-    width: 380px;
+    width: 420px;
     height: 150px;
 }
 #submit  {
@@ -974,7 +974,7 @@ form {
     color: black;
     border: 2px solid black;
     padding: 8px;
-    width: 400px;
+    width: 408px;
     font-size: 16px;
 }
 #email {
@@ -983,7 +983,7 @@ form {
     font-family: 'Rubik Mono One';
     color: black;
     border: 2px solid black;
-    width: 400px;
+    width: 404px;
 }
 
 #massage {
